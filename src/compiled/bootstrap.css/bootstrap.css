@@ -8302,7 +8302,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: var(--primary-green) !important;
 }
 
 .text-secondary {
@@ -8407,7 +8407,7 @@ textarea.form-control-lg {
 }
 
 .text-primary-emphasis {
-  color: var(--bs-primary-text) !important;
+  color: var(--primary-green) !important;
 }
 
 .text-secondary-emphasis {

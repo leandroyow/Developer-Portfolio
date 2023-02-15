@@ -1,11 +1,14 @@
 import Navbar from './components/navbar'
 import './App.css'
+import Hero from './components/hero-section'
 
-function App() {
+export default function App() {
 
   return (
-  <Navbar />
+  <>
+    <Navbar />
+    <Hero />
+  </>
   )
 }
 
-export default App
