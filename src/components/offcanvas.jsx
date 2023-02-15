@@ -11,13 +11,16 @@ export default function Offcanvas () {
         style={{border: "none !important", height: 100}}
         className="offcanvas-header d-flex justify-content-end"
         >
-         
-          <button
-            type="button"
-            className="btn-close"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
+
+        <i className="fa-solid fa-expand position-relative"
+           style={{fontSize: 35,color: "#09EC41"}} 
+           type="button"
+           data-bs-dismiss="offcanvas"
+           aria-label="Close" >
+            <i className="fa-solid fa-xmark position-absolute top-50 start-50 translate-middle"
+               style={{fontSize:15}}
+                ></i>
+           </i>
 
          </div>
         <div 
