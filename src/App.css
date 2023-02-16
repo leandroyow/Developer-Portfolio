@@ -54,4 +54,16 @@ a {
   color: var(--primary-green);
 }
 
+hr {
+  width: 40%;
+  color: var(--primary-green)
+}
+
+.description-text {
+  color: rgb(210, 210, 210);
+}
+
+.stack {
+  font-size: 40px;
+}
 

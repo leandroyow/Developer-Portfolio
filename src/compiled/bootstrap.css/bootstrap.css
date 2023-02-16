@@ -6104,7 +6104,7 @@ textarea.form-control-lg {
 }
 .carousel-dark .carousel-caption {
   color: #000;
-}
+} 
 
 [data-bs-theme=dark] .carousel .carousel-control-prev-icon,
 [data-bs-theme=dark] .carousel .carousel-control-next-icon {
@@ -7315,7 +7315,7 @@ textarea.form-control-lg {
 }
 
 .border {
-  border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+  border: var(--bs-border-width) var(--bs-border-style) var(--primary-green) !important;
 }
 
 .border-0 {
@@ -7356,7 +7356,9 @@ textarea.form-control-lg {
 
 .border-primary {
   --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-primary-rgb), var(--bs-border-opacity)) !important;
+  border-color: var(--primary-green) !important;
+  color: var(--primary-green) !important;
+  background-color: var(--primary-green) !important;
 }
 
 .border-secondary {
@@ -7366,7 +7368,7 @@ textarea.form-control-lg {
 
 .border-success {
   --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-success-rgb), var(--bs-border-opacity)) !important;
+  border-color: rgba(var(--primary-green), var(--bs-border-opacity)) !important;
 }
 
 .border-info {
@@ -7408,7 +7410,7 @@ textarea.form-control-lg {
 }
 
 .border-success-subtle {
-  border-color: var(--bs-success-border-subtle) !important;
+  border-color: var(--primary-green) !important;
 }
 
 .border-info-subtle {
