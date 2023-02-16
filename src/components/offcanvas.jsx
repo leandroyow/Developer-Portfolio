@@ -26,9 +26,10 @@ export default function Offcanvas () {
         <div 
         style={{border: "none !important"}}
         className="offcanvas-body d-flex flex-column align-items-center gap-5">
-            <a className="fs-4 fw-light" href=""> <span className="number-menu">1.</span> Sobre</a>
-            <a className="fs-4 fw-light" href=""> <span className="number-menu">2.</span> Projetos</a>
-            <a className="fs-4 fw-light" href=""> <span className="number-menu">3.</span> Contato</a>
+            <a className="fs-4 fw-light" href=""> <span className="number-menu">(</span> Sobre <span className="number-menu">)</span> </a>
+            <a className="fs-4 fw-light" href=""> <span className="number-menu">(</span> Stacks <span className="number-menu">)</span> </a>
+            <a className="fs-4 fw-light" href=""> <span className="number-menu">(</span> Projetos<span className="number-menu">)</span> </a>
+            <a className="fs-4 fw-light" href=""> <span className="number-menu">(</span> Contato <span className="number-menu">)</span> </a>
             <button className="btn btn-outline-success">Currículo</button>
 
         </div>

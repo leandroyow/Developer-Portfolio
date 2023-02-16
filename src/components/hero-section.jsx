@@ -1,5 +1,4 @@
 import Breakpoints from "../hooks/breakpoints"
-import { useState, useEffect } from "react";
 
 export default function Hero() {
 
@@ -13,7 +12,7 @@ export default function Hero() {
              hábito mais recorrente é o aprendizado.</p>
 
              <p style={{color: "gray"}} className="fw-light">Eu pratico programação desde desde maio de 2022 quando iniciei meus estudos na Kenzie Academy, lá aprendi toda a base do desenvolvimento Front End e pude construir diversos projetos e aprender com muitas pessoas e profissionais excelentes, hoje continuo a minha jornada de construção de projetos(como esse portfólio), absorvendo conhecimento e me adaptando a cada novo desafio! </p>
-
+                
         </div>
     )
 }
