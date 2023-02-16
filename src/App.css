@@ -5,8 +5,8 @@
 }
 
 :root {
-  --main-black: #232E2E;
-  --primary-green: #09EC41;
+  --main-teal: #022B3A;
+  --primary-green: #04E762;
 }
 
 #root {
@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: var(--main-black);
+  background-color: var(--main-teal);
   width: 100%;
   font-family: 'Kanit', sans-serif;
 

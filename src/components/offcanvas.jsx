@@ -13,7 +13,7 @@ export default function Offcanvas () {
         >
 
         <i className="fa-solid fa-expand position-relative"
-           style={{fontSize: 35,color: "#09EC41"}} 
+           style={{fontSize: 35,color: "#04E762"}} 
            type="button"
            data-bs-dismiss="offcanvas"
            aria-label="Close" >
@@ -24,7 +24,7 @@ export default function Offcanvas () {
 
          </div>
         <div 
-        style={{border: "none !important"}}
+        style={{border: "none !important", backgroundColor:"#022B3A"}}
         className="offcanvas-body d-flex flex-column align-items-center gap-5">
             <a className="fs-4 fw-light" href=""> <span className="number-menu">(</span> Sobre <span className="number-menu">)</span> </a>
             <a className="fs-4 fw-light" href=""> <span className="number-menu">(</span> Stacks <span className="number-menu">)</span> </a>
