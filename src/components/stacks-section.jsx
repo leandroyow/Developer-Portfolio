@@ -5,7 +5,7 @@ export default function Stacks() {
                 <h3 className="ps-3 pe-2">Stacks</h3>
                 <hr />
             </div>
-            <p className="fw-light ps-5 pe-5 mt-5 description-text">Eu amo o aprendizado baseado em projetos, ter que aprender enquanto faço e construo coisas não é fácil, mas foi algo que me atraiu muito e sempre foi gratificante. Aprendi e estou aprendendo e aprimorando habilidades e ferramentas de trabalho todos os dias:</p>
+            <p style={{color: "rgb(210, 210, 210)"}} className="fw-light ps-5 pe-5 mt-5">Eu amo o aprendizado baseado em projetos, ter que aprender enquanto faço e construo coisas não é fácil, mas foi algo que me atraiu muito e sempre foi gratificante. Aprendi e estou aprendendo e aprimorando habilidades e ferramentas de trabalho todos os dias:</p>
             <div className="ms-5 me-5 pt-5 d-flex justify-content-evenly">
             <i style={{color: "#f54d27"}} class="fa-brands fa-git-alt stack"></i>
             <i style={{color:"#f26528"}} class="fa-brands fa-html5 stack"></i>

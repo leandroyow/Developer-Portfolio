@@ -11,7 +11,7 @@ export default function Hero() {
             <p style={{color: "gray", fontSize: windowWidth <= 408 ? "0.9rem" : "1.2rem"}}>Sou um desenvolvedor Front End e meu
              hábito mais recorrente é o aprendizado.</p>
 
-             <p  className="fw-light description-text">Eu pratico programação desde desde maio de 2022 quando iniciei meus estudos na Kenzie Academy, lá aprendi toda a base do desenvolvimento Front End e pude construir diversos projetos e aprender com muitas pessoas e profissionais excelentes, hoje continuo a minha jornada de construção de projetos(como esse portfólio), absorvendo conhecimento e me adaptando a cada novo desafio! </p>
+             <p style={{color: "rgb(210, 210, 210)"}} className="fw-light">Eu pratico programação desde desde maio de 2022 quando iniciei meus estudos na Kenzie Academy, lá aprendi toda a base do desenvolvimento Front End e pude construir diversos projetos e aprender com muitas pessoas e profissionais excelentes, hoje continuo a minha jornada de construção de projetos(como esse portfólio), absorvendo conhecimento e me adaptando a cada novo desafio! </p>
                 
         </div>
     )

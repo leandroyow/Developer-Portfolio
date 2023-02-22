@@ -7,6 +7,7 @@
 :root {
   --main-teal: #022B3A;
   --primary-green: #04E762;
+  --darker-teal: #03343b;
 }
 
 #root {
@@ -61,9 +62,52 @@ hr {
 
 .description-text {
   color: rgb(210, 210, 210);
+  font: italic;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+
 }
 
 .stack {
   font-size: 40px;
 }
 
+.site {
+  font-size: 2rem;
+  color: var(--primary-green);
+  cursor: pointer;
+}
+
+.btn-card:hover i {
+  color: white;
+  
+}
+
+.btn-card:hover {
+  border:1px solid white !important;
+}
+
+
+
+@media (max-width: 364px) {
+  .site {
+    font-size: 1rem;
+    width: 15px;
+    
+  }
+  .btn-card {
+    width:  50% !important;
+  }
+}
+
+@media (max-width: 309px) {
+  .site {
+    font-size: 0.8rem;
+    width: 9px;
+  }
+
+}

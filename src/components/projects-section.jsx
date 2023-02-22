@@ -1,3 +1,5 @@
+import Cards from "./cards"
+
 export default function Projects() {
     return (
         <div>
@@ -5,7 +7,7 @@ export default function Projects() {
                 <h3 className="ps-3 pe-2">Projetos</h3>
                 <hr />
             </div>
-            
+            < Cards/>
         </div>
     )
 }
