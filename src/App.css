@@ -62,14 +62,14 @@ hr {
 
 .description-text {
   color: rgb(210, 210, 210);
-  font: italic;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  
+}
 
+.card-text {
+  display: -webkit-box;
+  overflow: scroll;
+  height: 75px !important;
+  font: italic;
+  color: rgb(210, 210, 210);
 }
 
 .stack {
