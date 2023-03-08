@@ -5335,8 +5335,8 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   padding: var(--bs-toast-padding-y) var(--bs-toast-padding-x);
-  color: var(--bs-toast-header-color);
-  background-color: var(--bs-toast-header-bg);
+  color: var(--primary-green) !important;
+  background-color: var(--main-teal) !important;
   background-clip: padding-box;
   border-bottom: var(--bs-toast-border-width) solid var(--bs-toast-header-border-color);
   border-top-left-radius: calc(var(--bs-toast-border-radius) - var(--bs-toast-border-width));

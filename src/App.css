@@ -65,10 +65,17 @@ hr {
 }
 
 .card-text {
+  --max-lines: 3;
+
+
   display: -webkit-box;
-  overflow: scroll;
+  -webkit-line-clamp: var(--max-lines);
+  overflow: hidden;
+  -webkit-box-orient: vetical;
+  text-overflow: ellipsis;
   height: 75px !important;
   font: italic;
+  font-weight: 200;
   color: rgb(210, 210, 210);
 }
 

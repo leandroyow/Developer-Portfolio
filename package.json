@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "@formspree/react": "^2.4.1",
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.3.0-alpha1",
     "bootstrap-icons": "^1.10.3",
