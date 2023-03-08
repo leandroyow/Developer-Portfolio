@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 export default function Contact() {
+  
   const form = useRef();
   const [IsEmailSent, setIsEmailSent] = useState(false);
 

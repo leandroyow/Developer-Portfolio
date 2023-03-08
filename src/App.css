@@ -65,16 +65,11 @@ hr {
 }
 
 .card-text {
-  --max-lines: 3;
-
-
   display: -webkit-box;
-  -webkit-line-clamp: var(--max-lines);
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  -webkit-box-orient: vetical;
-  text-overflow: ellipsis;
-  height: 75px !important;
-  font: italic;
+  max-height: 75px !important;
   font-weight: 200;
   color: rgb(210, 210, 210);
 }
@@ -131,3 +126,4 @@ hr {
   }
 
 }
+
