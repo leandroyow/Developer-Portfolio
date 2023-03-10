@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 export default function Contact() {
-  
+
   const form = useRef();
   const [IsEmailSent, setIsEmailSent] = useState(false);
 
@@ -46,9 +46,10 @@ export default function Contact() {
     <div>
       <div
         style={{ color: "white" }}
-        className="d-flex flex-row mt-5 pt-5 pb-5 mb-3"
+        className="d-flex align-items-center flex-row mt-5 pt-5 pb-5 mb-3 ms-5 me-5"
       >
-        <h3 className="pe-3 ps-2">Contato</h3>
+         <hr />
+        <h3 className="pe-3 ps-2 title-section fs-2">Contato</h3>
         <hr />
       </div>
 
@@ -103,7 +104,7 @@ export default function Contact() {
           ref={form}
           onSubmit={sendEmail}
           action="submit"
-          className="mt-5 ms-5 me-5 mail-form"
+          className="mt-5 ms-5 me-5 mb-2 mail-form"
         >
           <h1 className="text-center" style={{color:"white"}}></h1>
           <div className="mb-3">

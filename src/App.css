@@ -51,12 +51,12 @@ a {
   color: var(--primary-green);
 }
 
-.text-main {
+.description-hero {
   color: var(--primary-green);
 }
 
 hr {
-  width: 40%;
+  width: 60%;
   color: var(--primary-green)
 }
 
@@ -90,7 +90,7 @@ hr {
 }
 
 .btn-card:hover {
-  border:1px solid white !important;
+  border:1px solid transparent !important;
 }
 
 .mail-form {
@@ -105,19 +105,15 @@ hr {
   font-size: 4rem;
 }
 
-
-
-
-@media (max-width: 364px) {
-  .site {
-    font-size: 1rem;
-    width: 15px;
-    
-  }
-  .btn-card {
-    width:  50% !important;
-  }
+.nav-link:hover {
+  color: var(--primary-green) !important;
 }
+
+.btn-card-link {
+  width: 50%;
+}
+
+
 
 @media (max-width: 309px) {
   .site {
@@ -126,4 +122,192 @@ hr {
   }
 
 }
+
+@media (max-width: 322px) {
+  .stack {
+    font-size: 35px !important; 
+  }
+}
+
+@media (max-width: 364px) {
+  .site {
+    font-size: 1rem;
+    width: 15px;
+  }
+  .btn-card {
+    width:  50% !important;
+  }
+}
+
+@media (max-width: 368px) {
+  .stack {
+    font-size: 40px !important; 
+  }
+}
+
+@media (max-width: 460px) {
+  .stack {
+    font-size: 30px !important; 
+  }
+
+}
+
+
+
+@media (max-width: 849px) {
+  .stack {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 850px) {
+  .hero-section-container {
+    padding-left: 18%;
+    padding-right: 18%;
+  }
+  .stacks-section-container {
+    padding-left: 18%;
+    padding-right: 18%;
+  }
+  .stack {
+    font-size: 70px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero-section-container {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+  .stacks-section-container {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+  .stack {
+    font-size: 90px !important;
+  }
+  .logo {
+    height: 80px !important;
+  }
+  .nav-link {
+    font-size: 1.8rem !important;
+  }
+  .btn-outline-success {
+    height: 50px;
+  }
+}
+
+@media (min-width: 1644px) {
+  .card {
+    width: 700px !important;
+  }
+  .btn-card-link {
+    width: 50%;
+    font-size: 1.5rem;
+  }
+  .card-text {
+    font-size: 1.1rem;
+    max-height: 100px !important;
+  }
+  form {
+    max-width: 900px !important;
+    height: 700px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  form input {
+    height: 60px;
+  }
+  form input::placeholder {
+    font-size: 1.3rem;
+  }
+  label {
+    font-size: 1.4rem;
+  }
+  #liveToastBtn {
+    font-size: 1.6rem;
+    height: 60px;
+  }
+  .contact-icon {
+    font-size: 6rem;
+  }  
+  .title-section {
+    font-size: 2.5rem !important;
+    
+  }
+  
+}
+
+@media (min-width: 2000px) {
+  .description-hero {
+    font-size: 2rem !important;
+    line-height: 1.2;
+  }
+  .text-second {
+    font-size: 2.3rem !important;
+  }
+  .nav-link {
+    font-size: 2rem !important;
+  }
+  .btn-outline-success {
+    width: 250px;
+    font-size: 1.2rem;
+  }
+  .menu-link-container {
+    width: 800px !important;
+  }
+  .name-hero {
+    font-size: 4.9rem !important;
+  }
+
+}
+
+@media (min-width: 2244px) {
+  .card {
+    width: 800px !important;
+  }
+  .btn-card-link {
+    width: 50%;
+    font-size: 1.6rem;
+    height: 60px !important;
+  }
+  .card-text {
+    font-size: 1.21rem;
+    max-height: 120px !important;
+  }
+  .name-hero {
+    font-size: 5.5rem !important;
+  }
+  
+}
+
+@media (min-width: 2544px) {
+  .card {
+    width: 900px !important;
+  }
+  form {
+    max-width: 900px !important;
+    height: 700px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  form input {
+    height: 60px;
+  }
+  form input::placeholder {
+    font-size: 1.3rem;
+  }
+  label {
+    font-size: 1.4rem;
+  }
+  #liveToastBtn {
+    font-size: 1.6rem;
+    height: 60px;
+  }
+}
+
+
+
 
