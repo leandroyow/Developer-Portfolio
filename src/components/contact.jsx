@@ -45,6 +45,7 @@ export default function Contact() {
   return (
     <div>
       <div
+        id="contact-section"
         style={{ color: "white" }}
         className="d-flex align-items-center flex-row mt-5 pt-5 pb-5 mb-3 ms-5 me-5"
       >

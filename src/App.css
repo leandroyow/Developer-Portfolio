@@ -84,6 +84,26 @@ hr {
   cursor: pointer;
 }
 
+.btn-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-green) !important;
+}
+
+.btn-nav:hover {
+  color: #fff !important;
+}
+
+.btn-card {
+  color: var(--primary-green) !important;
+}
+
+
+.btn-card:hover  {
+  color: white !important;
+  
+}
 .btn-card:hover i {
   color: white;
   

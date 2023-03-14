@@ -6,7 +6,7 @@ export default function Hero() {
 
     return (
         <div className="d-flex justify-content-center">
-        <div style={{marginTop: windowWidth < 425 ? 30 : 70}}  className="hero-section-container ms-5 me-5">
+        <div style={{marginTop: windowWidth < 425 ? 30 : 70}} id="about-section"  className="hero-section-container ms-5 me-5">
         
             <p className="text-main mb-0 mt-4" style={{lineHeight: 0, color:"#04E762", fontSize: windowWidth >= 600 ? "1.5rem" : "1rem"}} >Olá, meu nome é</p><br/>
             <h3 className="name-hero" style={{color:"white", fontSize: windowWidth >= 700 ? "3.5rem": windowWidth <= 325 ? "1.7rem" : "2rem" }}>Leandro Mateus.</h3>
